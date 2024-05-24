@@ -53,7 +53,7 @@ function App() {
               value={inputText}
               onKeyPress={summarizeText}
               onChange={(e) => setInputText(e.target.value)}
-              placeholder="Paste your text here..."
+              placeholder="Enter your text !"
             />
           </Form.Group>
           <Button className="gen-button" onClick={summarizeText}> Generate</Button>
