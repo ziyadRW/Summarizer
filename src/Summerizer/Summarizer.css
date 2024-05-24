@@ -1,0 +1,89 @@
+body {
+  background-image: url("../assests/v602-nunoon-33-rippednotes.jpg");
+  background-size: auto 25%; 
+  background-repeat: repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.content-container {
+  padding-top: 0.625rem; /* 10px converted to rem */
+  margin: 2.1875rem; /* 35px converted to rem */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  padding: 0.9375rem; /* 15px converted to rem */
+}
+
+.highlight {
+  color: #76cddb;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-text {
+  padding: 1.5625rem; /* 25px converted to rem */
+  margin: 0.9375rem; /* 15px converted to rem */
+  border-radius: 0.9375rem; /* 15px converted to rem */
+  background-color: white;
+  width: 25rem; /* 400px converted to rem */
+  height: 12.5rem; /* 200px converted to rem */
+  text-align: left;
+  box-shadow: 0px 0.25rem 0.375rem rgba(0, 0, 0, 0.5); /* 4px 6px converted to rem */
+}
+
+.form-text:focus {
+  outline: none;
+  border: 0.0625rem solid #76cddb; /* 1px converted to rem */
+  background-color: white;
+}
+
+.form-text:hover {
+  background-color: white;
+}
+
+.form-text:active {
+  border: 0.0625rem solid #76cddb; /* 1px converted to rem */
+  background-color: white;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.9375rem; /* 15px converted to rem */
+  padding: 0.9375rem; /* 15px converted to rem */
+  background-color: white;
+  border-radius: 0.9375rem; /* 15px converted to rem */
+  text-align: left;
+  color: rgb(39, 37, 37);
+  box-shadow: 0px 0.25rem 0.375rem rgba(0, 0, 0, 0.4); /* 4px 6px converted to rem */
+}
+
+.gen-button {
+  padding: 0.625rem; /* 10px converted to rem */
+  margin: 0.625rem; /* 10px converted to rem */
+  border-radius: 0.9375rem; /* 15px converted to rem */
+  width: 6.25rem; /* 100px converted to rem */
+  height: 3.125rem; /* 50px converted to rem */
+  text-align: center;
+  background-color: #76cddb;
+  box-shadow: 0px 0.25rem 0.375rem rgba(0, 0, 0, 0.4); /* 4px 6px converted to rem */
+  border: none;
+  color: black;
+}
+
+.gen-button:hover {
+  border: none;
+  background-color: hsl(188, 58%, 56%);
+  color: black;
+}

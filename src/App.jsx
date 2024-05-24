@@ -1,5 +1,5 @@
 import React from 'react'
-import Summarizer from './Summarizer'
+import Summarizer from './Summerizer/Summarizer'
 const App = () => {
   return (
     <div>

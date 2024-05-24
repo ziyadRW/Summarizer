@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Container, Form, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import './App.css';
+import './Summarizer.css';
 function App() {
 
   const [inputText, setInputText] = useState("");
