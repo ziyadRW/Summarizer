@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  background-image: url("./assests/v602-nunoon-33-rippednotes.jpg");
+  background-size: auto 25%; 
+  background-repeat: repeat;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-.App-link {
-  color: #61dafb;
+.content-container {
+  padding-top: 10px;
+  margin: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title {
+  padding: 15px;
+}
+
+.highlight {
+  color: #76cddb;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-text{
+  padding: 25px;
+  margin: 15px;
+  border-radius: 15px;
+  background-color: white;
+  width: 400px;
+  height: 200px;
+  text-align: left;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+}
+.form-text:focus{
+  outline: none;
+  border: 1px solid #76cddb;
+  background-color: white;
+}
+.form-text:hover{
+  background-color: white;
+}
+.form-text:active{
+  border: 1px solid #76cddb;
+  background-color: white;
+}
+.result{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+  padding: 15px;
+  background-color: white;
+  border-radius: 15px;
+  text-align: left;
+  color: rgb(39, 37, 37);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4);
+}
+.gen-button{
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  background-color: #76cddb;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4);
+  border: none;
+  color: black;
+}
+.gen-button:hover{
+  border: none;
+  background-color: hsl(188, 58%, 56%);
+  color: black;
 }
